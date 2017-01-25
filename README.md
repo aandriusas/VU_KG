@@ -1,5 +1,5 @@
 # VU_KG
-VU MIF Kompiuterinė grafika kurso dėstomo R. Krasausko užduotys 
+VU MIF Kompiuterinė grafika kurso užduotys 
 
 Pratybų užduotys.
 
@@ -14,6 +14,8 @@ Pratybų užduotys.
 Gauta 80% - dantračiai nesusilygindavo (užlipdavo vienas ant kito).
 
 2 užduotis:
+
+![alt tag](https://raw.githubusercontent.com/aandriusas/VU_KG/master/30.png)
 
 * Rasti pagrindines 4 transformacijas
 * Parašyti programą, kuri generuotų tą patį paveiksliuką (interaktyviai pasirenkant žingsnių skaičių), kurio 4 dalys   nuspalvintos skirtingomis spalvomis;
@@ -39,6 +41,8 @@ Gauta 100%
 WebGL su Three.js scena su tekstūruotais objektais, bei kameros reguliavimas:
 * “figūra” surinkta iš 27 vienodų kubelių, pakeičiant standartines UV koordinates taip, kad uždėjus tekstūras iš viršaus ir iš 4 šonų (iš viso 5) matytųsi skirtingi nesubyrėję paveiksiukai. 105 variantas.
 
+![alt tag](https://raw.githubusercontent.com/aandriusas/VU_KG/master/A101125.GIF)
+
 * “akmuo” – tai THREE.ConvexGeometry() pagalba atsitiktinai sugeneruotas tinklelis (mesh), kurio viršūnės užpildo nurodytą tūrį (cilindrą arba sferą); 
 * apskaičiuoti natūralias UV koordinates ir pagal jas uždėti šachmatinę tekstūrą – variantai: B 
 * (A) cilindras:  x^2+z^2 \le R^2, \quad 0 \le y \le H 
@@ -49,3 +53,4 @@ Kameros reguliavimas:
 * (ii) sklandus kameros perjungimas prie kito objekto, kai kamera yra aukščiau pusiaukelėje (žr. pvz. 1 ir pvz. 2 – nesklandus perjungimas), naudojant camera.up().
 
 Gauta 92% - netiko kameros perjungimas naudojant `UP`
+
